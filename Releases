@@ -1,2 +1,29 @@
-Drumraq 1.0.0
-1st release
+update (1.4.0) - 17Apr2025
+    Multiple patterns: A session can have upto 5 pattern and they can be triggered with midi keys C, D, E, F, G (middle octave).
+    Bug fixes: A bug related to session saving was fixed.
+
+update (1.3.4) - 14Apr2025
+    Added a play/pause button to live preview the sequence
+
+update (1.3.3) - 13Apr2025
+    Added pitch shift : Modify the pitch of a sample, shifting it up or down by 12 semitones.
+    Few new themes.
+
+update (1.3.1) - 11Apr2025
+    Added Swing (One for every sample/pad)
+
+update (1.3.0) - 7Apr2025
+    Added ADSR, sample start/end position
+    Velocity editor now support mouse drag to set sliders
+    Few bug fixes and improvements
+
+update (1.2.0) - 4Apr2025
+    Added velocity editor
+    Few bug fixes
+
+update (1.1.0) - 2Apr2025
+    Save sessions as presets
+    A new theme.
+
+1.0.0 - 1Apr2025
+    Launch
