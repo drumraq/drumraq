@@ -1,3 +1,20 @@
+update (1.5.0) - 25Apr2025
+    Drag MIDI from Plugin to DAW for Precise Timing.
+        Sequencers in general are designed to work in perfect bars, meaning the sequence must start at the exact beginning of a bar.
+        This limitation can make it impossible to start playback from the middle of a bar within the plugin itself.
+        Solution - Create midi out of the sequence, drop it into your DAW and place it anywhere on the timeline.
+
+    Preset are now portable. Audio files are part of preset along with patterns and other parameters/setting.
+        Means presets now can be transferred to other systems or can be shared with others.
+
+    Improved midi processing.
+
+    Some ui adjustment.
+        Themes tab is just a color wheel now. Takes less space.
+        Added an 'About' alert window to display a brief description of the plugin. It appears when clicking on the plugin name 'DRUMRAQ'.
+
+    Few internal optimizations.
+
 update (1.4.0) - 17Apr2025
     Multiple patterns: A session can have upto 5 pattern and they can be triggered with midi keys C, D, E, F, G (middle octave).
     Bug fixes: A bug related to session saving was fixed.
