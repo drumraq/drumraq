@@ -1,3 +1,27 @@
+Update 1.6.0 
+
+    Changelog / Update Summary:
+    
+    Added a high-cut filter for shaping upper frequencies.
+    
+    Introduced a simple room reverb to add natural space and depth.
+    
+    Implemented an analog-style drive for subtle saturation or distortion.
+    
+    Added an attack curve control that smoothly transitions from logarithmic to linear to exponential shapes.
+    
+    Introduced a “Random” button that selects a random sample from the current directory. (Note: It doesn't immediately replace the active sample (intentional ) — click "OK" to confirm the change.)
+    
+    Added a “Declick” button to help reduce clicks when adjusting start or end positions of samples.
+    
+    Made significant improvements related to thread safety and efficient data handling within the plugin.
+    
+    Pads are now internally disabled (not muted) when no sample is loaded, helping reduce unnecessary processing.
+    
+    The waveform view now displays the ADSR envelope curve.
+    
+    Several bug fixes and overall stability improvements.
+
 update (1.5.0) - 25Apr2025
     Drag MIDI from Plugin to DAW for Precise Timing.
         Sequencers in general are designed to work in perfect bars, meaning the sequence must start at the exact beginning of a bar.
